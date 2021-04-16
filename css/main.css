@@ -1,0 +1,278 @@
+@font-face {
+    src: url("../css/Kastelov - Kinetika Light.otf");
+    font-family: KinetkaLight;
+}
+@font-face {
+    src: url("../css/Kastelov - Kinetika Ultra.otf");
+    font-family: KinetkaUltra;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: KinetkaLight;
+    /*height: 100%;*/
+}
+
+/* Header */
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header_left_hand{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header_left_hand_inner_block{
+    margin-left: 50px;
+    height: auto;
+}
+
+.header_right_hand{
+     height: 100px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: flex-end;
+ }
+.header_right_hand_inner_block{
+    margin-right: 50px;
+    font-size: 35px;
+    cursor: pointer;
+    height: auto;
+    transition: .5s;
+}
+.header_right_hand_inner_block:hover{
+    color: #888888;
+}
+
+/* Header inner parts */
+
+.logo{
+    height: 80px;
+}
+.page_address{
+    font-weight: bold;
+    font-size: 20px;
+    height: auto;
+}
+.avatar{
+    height: 70px;
+    border-radius: 100px;
+    transition: .5s;
+}
+.avatar:hover{
+    filter: brightness(120%);
+}
+
+/* Main part of site */
+
+.main-box{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+/* Container for sections */
+
+.cont{
+    width: 85%;
+    border-top-left-radius: 30px;
+    background: #f3f6f8;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Menu part */
+
+.menu-box{
+     width: 15%;
+     background: #f3f6f8;
+     height: auto;
+}
+.menu{
+    width: 100%;
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    border-bottom-right-radius: 30px;
+}
+
+/* Big parts of menu*/
+
+.high_name{
+    width: 80%;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+}
+.high_name a{
+     width: auto;
+     margin-left: 25px;
+     margin-bottom: 5px;
+     font-size: 18px;
+     cursor: pointer;
+     height: auto;
+ }
+
+/* Big parts names */
+
+.high{
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    height: auto;
+}
+.high_images{
+    font-size: 20px;
+    color: rgba(0,0,0,.5);
+    margin-right: 5px;
+    height: auto;
+}
+
+/* Left half of container */
+
+.first-module{
+    padding: 40px 20px 40px 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    height: auto;
+}
+
+/* Right half of container */
+
+.second-module{
+     padding: 40px 40px 40px 20px;
+     margin-left: 0;
+     height: auto;
+     width: 60%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
+/* Sections */
+
+section{
+    background: white;
+    border-radius: 20px;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 30px;
+    font-size: 25px;
+    font-weight: bold;
+    height: auto;
+}
+section hr{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    height: auto;
+}
+section div{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 10px;
+    height: auto;
+}
+
+/* News */
+
+.news img{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.higher-name{
+    font-size: 25px;
+    font-weight: bold;
+}
+.news a{
+    font-size: 20px;
+    color: #677cff;
+}
+.news-block{
+    width: 95%;
+}
+.news-block a{
+     font-weight: bold;
+}
+.high-news-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Schedule */
+
+.schedule a{
+     font-size: 20px;
+     color: #677cff;
+}
+
+/* Tasks */
+
+.tasks a{
+    font-size: 20px;
+    color: #677cff;
+}
+.zadachi p{
+    margin-bottom: 3px;
+}
+
+/* Footer */
+
+footer{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #f3f6f8;
+    font-size: 20px;
+}
+footer a{
+    font-size: 20px;
+    color: #677cff;
+    font-weight: bold;
+}
+footer p{
+    margin-bottom: 5px;
+}
+
+/* Button modifications */
+
+.nice-look{
+    display: block;
+    transition: .5s;
+}
+.nice-look:after{
+    content: "";
+    display: block;
+    border-bottom: 2px solid hsl(170, 70%, 50%);
+    transition: .5s;
+    transform: scaleX(0);
+}
+.nice-look:hover:after{
+    transform: scaleX(1);
+}
+
