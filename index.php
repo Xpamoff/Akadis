@@ -12,6 +12,7 @@
 <body>
     <header>
         <div class="header_left_hand">
+            <i class="fas fa-bars menu_open" onclick="open_menu()"></i>
             <img src="img/logo_academy.svg" class="logo header_left_hand_inner_block">
             <div class="page_address header_left_hand_inner_block">Главная</div>
         </div>
@@ -65,7 +66,7 @@
                     <hr>
                     <div class="blizh">Ближайшее занятие: 16.04</div>
                     <div class="next">Следующее занятие: 20.04</div>
-                    <a href="#">Всё расписание</a>
+                    <a href="#" class="link">Всё расписание</a>
                 </section>
                 <section class="tasks">
                     Текущие задачи:
@@ -76,7 +77,7 @@
                         <p>3. Заканчивать делать задачу</p>
                         <p>4. Закончить задачу</p>
                     </div>
-                    <a href="#">Перейти к доске задач</a>
+                    <a href="#" class="link">Перейти к доске задач</a>
                 </section>
             </div>
             <div class="second-module">
@@ -88,7 +89,7 @@
                             <img src="img/XXL.jfif">
                             <div class="higher-name">Двери</div>
                             <div class="preview">Теперь раздвижные двери раздвигаются!!!!!!!!</div>
-                            <a href="#">Читать далее</a>
+                            <a href="#" class="link">Читать далее</a>
                         </div>
                     </div>
 
@@ -114,7 +115,8 @@
     <footer>
         <p>Вы вошли как Шелдон Купер</p>
         <p>Академия Калашников 2021</p>
-        <a href="#">Наверх</a>
+        <a href="#" class="link">Наверх</a>
     </footer>
+    <script src="js/main.js"></script>
 </body>
 </html>
