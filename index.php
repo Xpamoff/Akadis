@@ -26,10 +26,10 @@
         <div class="menu-box">
             <div class="menu">
                 <div class="high_name">
-                    <div class="high nice-look"><i class="fas fa-th-large high_images"></i>Главная</div>
+                    <div class="high nice-look" onclick="location.reload()"><i class="fas fa-th-large high_images"></i>Главная</div>
                     <a class="nice-look">Направление</a>
                     <a class="nice-look">Задачи</a>
-                    <a class="nice-look">Расписание</a>
+                    <a class="nice-look" onclick="location.href = 'http://localhost/Akadis/%D1%80%D0%B0%D1%81%D0%BF%D0%B8%D1%81%D0%B0%D0%BD%D0%B8%D0%B5.php'">Расписание</a>
                     <a class="nice-look">Новости</a>
                 </div>
                 <div class="high_name">
