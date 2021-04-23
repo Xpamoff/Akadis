@@ -181,6 +181,7 @@ header{
 
 .logo{
     height: 80px;
+    cursor: pointer;
 }
 .page_address{
     font-weight: bold;
