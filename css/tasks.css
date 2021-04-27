@@ -1,0 +1,43 @@
+@media screen and (max-width: 426px){
+    .boxes{
+        flex-direction: column !important;
+    }
+    .sections-one{
+        padding-right: 0 !important;
+    }
+    .sections-two{
+        padding-left: 0 !important;
+    }
+    .boxes .sections{
+        width: 100% !important;
+    }
+}
+
+.tasks-name{
+    text-align: center;
+}
+.boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.cont{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+.sections-one{
+    padding-right: 15px;
+}
+.sections-two{
+    padding-left: 15px;
+}
+.boxes .sections{
+    width: 50%;
+}
+.link{
+    font-size: 20px;
+    color: #677cff;
+    cursor: pointer;
+    text-decoration: underline;
+}

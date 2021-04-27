@@ -13,7 +13,7 @@
     <header>
         <div class="header_left_hand">
             <i class="fas fa-bars menu_open" onclick="open_menu()"></i>
-            <img src="img/logo_academy.svg" class="logo header_left_hand_inner_block">
+            <img src="img/logo_academy.svg" class="logo header_left_hand_inner_block" onclick="location.reload()">
             <div class="page_address header_left_hand_inner_block">Главная</div>
         </div>
         <div class="header_right_hand">
@@ -26,11 +26,11 @@
         <div class="menu-box">
             <div class="menu">
                 <div class="high_name">
-                    <div class="high nice-look"><i class="fas fa-th-large high_images"></i>Главная</div>
-                    <a class="nice-look">Направление</a>
-                    <a class="nice-look">Задачи</a>
-                    <a class="nice-look">Расписание</a>
-                    <a class="nice-look">Новости</a>
+                    <div class="high nice-look" onclick="location.reload()"><i class="fas fa-th-large high_images"></i>Главная</div>
+                    <a class="nice-look" onclick="location.href = 'nprav.html'">Направление</a>
+                    <a class="nice-look" onclick="location.href = 'tasks'">Задачи</a>
+                    <a class="nice-look" onclick="location.href = 'расписание.php'">Расписание</a>
+                    <a class="nice-look" onclick="location.href = 'news/index.php'">Новости</a>
                 </div>
                 <div class="high_name">
                     <div class="high nice-look"><i class="fas fa-user-friends high_images"></i>Одногруппники</div>
