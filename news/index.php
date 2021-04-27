@@ -27,17 +27,10 @@
             <div class="menu">
                 <div class="high_name">
                     <div class="high nice-look" onclick = 'location.href="../index.php"'><i class="fas fa-th-large high_images"></i>Главная</div>
-<<<<<<< HEAD
                     <a class="nice-look" onclick="location.href = '../nprav.html'">Направление</a>
                     <a class="nice-look" onclick="location.href = '../tasks'">Задачи</a>
                     <a class="nice-look" onclick="location.href = '../расписание.php'">Расписание</a>
                     <a class="nice-look" onclick="location.reload()">Новости </a>
-=======
-                    <a class="nice-look">Направление</a>
-                    <a class="nice-look">Задачи</a>
-                    <a class="nice-look">Расписание</a>
-                    <a class="nice-look">Новости </a>
->>>>>>> 8fb7794cf0459b61dfe2c0b1f6bf27fd2e7db282
                 </div>
                 <div class="high_name">
                     <div class="high nice-look"><i class="fas fa-user-friends high_images"></i>Одногруппники</div>
