@@ -127,6 +127,7 @@ header{
      font-size: 18px;
      cursor: pointer;
      height: auto;
+	 cursor: pointer;
  }
 
 /* Big parts names */
@@ -303,4 +304,10 @@ ul{
 	margin-left:255px;
 	list-style-type: none;
 }
+.naprav{
+	cursor: pointer;
+}
+
+
+
 
