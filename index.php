@@ -38,9 +38,9 @@
                     <a class="nice-look">Моя группа</a>
                 </div>
                 <div class="high_name">
-                    <div class="high nice-look"><i class="fas fa-comment high_images"></i>Поддержка</div>
-                    <a class="nice-look">FAQ</a>
-                    <a class="nice-look">Задать вопрос</a>
+                    <div class="high nice-look" onclick="location.href='help.php'"><i class="fas fa-comment high_images"></i>Поддержка</div>
+                    <a class="nice-look" onclick="location.href='help.php'">FAQ</a>
+                    <a class="nice-look" onclick="location.href='help.php'">Задать вопрос</a>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
                     <hr>
                     <div class="blizh">Ближайшее занятие: 16.04</div>
                     <div class="next">Следующее занятие: 20.04</div>
-                    <a href="#" class="link">Всё расписание</a>
+                    <a href="расписание.php" class="link">Всё расписание</a>
                 </section>
                 <section class="tasks">
                     Текущие задачи:
@@ -77,7 +77,7 @@
                         <p>3. Заканчивать делать задачу</p>
                         <p>4. Закончить задачу</p>
                     </div>
-                    <a href="#" class="link">Перейти к доске задач</a>
+                    <a href="tasks/index.php" class="link">Перейти к доске задач</a>
                 </section>
             </div>
             <div class="second-module">
@@ -89,7 +89,7 @@
                             <img src="img/XXL.jfif">
                             <div class="higher-name">Двери</div>
                             <div class="preview">Теперь раздвижные двери раздвигаются!!!!!!!!</div>
-                            <a href="#" class="link">Читать далее</a>
+                            <a href="news/index.php" class="link">Читать далее</a>
                         </div>
                     </div>
 

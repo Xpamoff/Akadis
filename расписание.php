@@ -39,9 +39,9 @@
                     <a class="nice-look">Моя группа</a>
                 </div>
                 <div class="high_name">
-                    <div class="high nice-look"><i class="fas fa-comment high_images"></i>Поддержка</div>
-                    <a class="nice-look">FAQ</a>
-                    <a class="nice-look">Задать вопрос</a>
+                    <div class="high nice-look" onclick="location.href='help.php'"><i class="fas fa-comment high_images"></i>Поддержка</div>
+                    <a class="nice-look" onclick="location.href='help.php'">FAQ</a>
+                    <a class="nice-look" onclick="location.href='help.php'">Задать вопрос</a>
                 </div>
             </div>
         </div>
