@@ -22,7 +22,28 @@
             <img src="img/avatar.jpg" class="header_right_hand_inner_block avatar">
         </div>
     </header>
-   
+   <div class="main-box">
+        <div class="menu-box">
+            <div class="menu">
+                <div class="high_name">
+                    <div class="high nice-look" onclick="location.href='index.php'"><i class="fas fa-th-large high_images"></i>Главная</div>
+                    <a class="nice-look" onclick="location.href = 'nprav.html'">Направление</a>
+                    <a class="nice-look" onclick="location.href = 'tasks'">Задачи</a>
+                    <a class="nice-look" onclick="location.href = 'расписание.php'">Расписание</a>
+                    <a class="nice-look" onclick="location.href = 'news/index.php'">Новости</a>
+                </div>
+                <div class="high_name">
+                    <div class="high nice-look"><i class="fas fa-user-friends high_images"></i>Одногруппники</div>
+                    <a class="nice-look">Чаты</a>
+                    <a class="nice-look">Моя группа</a>
+                </div>
+                <div class="high_name">
+                    <div class="high nice-look" onclick="location.href='help.php'"><i class="fas fa-comment high_images"></i>Поддержка</div>
+                    <a class="nice-look" onclick="location.href='help.php'">FAQ</a>
+                    <a class="nice-look" onclick="location.href='help.php'">Задать вопрос</a>
+                </div>
+            </div>
+        </div>
 
         <div class="cont">
             <div class="first-module">
