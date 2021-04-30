@@ -13,7 +13,7 @@
     <header>
         <div class="header_left_hand">
             <i class="fas fa-bars menu_open" onclick="open_menu()"></i>
-            <img src="../img/logo_academy.svg" class="logo header_left_hand_inner_block">
+            <img src="../img/logo_academy.svg" class="logo header_left_hand_inner_block" onclick="location.href='../'">
             <div class="page_address header_left_hand_inner_block">Главная</div>
         </div>
         <div class="header_right_hand">
