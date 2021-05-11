@@ -24,7 +24,7 @@
 .cont{
     display: flex;
     flex-direction: column;
-    padding: 50px;
+    padding: 40px;
 }
 .sections-one{
     padding-right: 15px;

@@ -27,10 +27,10 @@
             <div class="menu">
                 <div class="high_name">
                     <div class="high nice-look" onclick="location.reload()"><i class="fas fa-th-large high_images"></i>Главная</div>
-                    <a class="nice-look" onclick="location.href = 'nprav.html'">Направление</a>
+                    <a class="nice-look" onclick="location.href = 'courses'">Направление</a>
                     <a class="nice-look" onclick="location.href = 'tasks'">Задачи</a>
-                    <a class="nice-look" onclick="location.href = 'расписание.php'">Расписание</a>
-                    <a class="nice-look" onclick="location.href = 'news/index.php'">Новости</a>
+                    <a class="nice-look" onclick="location.href = 'schedule'">Расписание</a>
+                    <a class="nice-look" onclick="location.href = 'news'">Новости</a>
                 </div>
                 <div class="high_name">
                     <div class="high nice-look"><i class="fas fa-user-friends high_images"></i>Одногруппники</div>
@@ -38,9 +38,9 @@
                     <a class="nice-look">Моя группа</a>
                 </div>
                 <div class="high_name">
-                    <div class="high nice-look" onclick="location.href='help.php'"><i class="fas fa-comment high_images"></i>Поддержка</div>
-                    <a class="nice-look" onclick="location.href='help.php'">FAQ</a>
-                    <a class="nice-look" onclick="location.href='help.php'">Задать вопрос</a>
+                    <div class="high nice-look" onclick="location.href='support'"><i class="fas fa-comment high_images"></i>Поддержка</div>
+                    <a class="nice-look" onclick="location.href='support'">FAQ</a>
+                    <a class="nice-look" onclick="location.href='support'">Задать вопрос</a>
                 </div>
             </div>
         </div>

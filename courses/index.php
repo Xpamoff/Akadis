@@ -6,57 +6,58 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Академия Калашникова</title>
-    <link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/naprav.css">
-    <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/naprav.css">
+    <link rel="stylesheet" href="../fontawesome/css/all.css">
 </head>
 <body>
-    <header>
-        <div class="header_left_hand">
-            <img src="img/logo_academy.svg" class="logo header_left_hand_inner_block" onclick="location.href='index.php'">
-            <div class="page_address header_left_hand_inner_block">Главная</div>
-        </div>
-        <div class="header_right_hand">
-            <i class="far fa-comments header_right_hand_inner_block"></i>
-            <i class="far fa-bell header_right_hand_inner_block"></i>
-            <img src="img/avatar.jpg" class="header_right_hand_inner_block avatar">
-        </div>
-    </header>
-    <div class="main-box">
-        <div class="menu-box">
-            <div class="menu">
-                <div class="high_name">
-                    <div class="high nice-look" onclick="location.href = 'index.php'"><i class="fas fa-th-large high_images"></i>Главная</div>
-                    <a class="nice-look" onclick="location.reload()">Направление</a>
-                    <a class="nice-look" onclick="location.href = 'tasks'">Задачи</a>
-                    <a class="nice-look" onclick="location.href = 'расписание.php'">Расписание</a>
-                    <a class="nice-look" onclick="location.href = 'news/index.php'">Новости</a>
-                </div>
-                <div class="high_name">
-                    <div class="high nice-look"><i class="fas fa-user-friends high_images"></i>Одногруппники</div>
-                    <a class="nice-look">Чаты</a>
-                    <a class="nice-look">Моя группа</a>
-                </div>
-                <div class="high_name">
-                    <div class="high nice-look" onclick="location.href='help.php'"><i class="fas fa-comment high_images"></i>Поддержка</div>
-                    <a class="nice-look">FAQ</a>
-                    <a class="nice-look">Задать вопрос</a>
-                </div>
+<header>
+    <div class="header_left_hand">
+        <i class="fas fa-bars menu_open" onclick="open_menu()"></i>
+        <img src="../img/logo_academy.svg" class="logo header_left_hand_inner_block" onclick="location.href = '../'">
+        <div class="page_address header_left_hand_inner_block">Направления</div>
+    </div>
+    <div class="header_right_hand">
+        <i class="far fa-comments header_right_hand_inner_block"></i>
+        <i class="far fa-bell header_right_hand_inner_block"></i>
+        <img src="../img/avatar.jpg" class="header_right_hand_inner_block avatar">
+    </div>
+</header>
+<div class="main-box">
+    <div class="menu-box">
+        <div class="menu">
+            <div class="high_name">
+                <div class="high nice-look" onclick="location.href = '../'"><i class="fas fa-th-large high_images"></i>Главная</div>
+                <a class="nice-look" onclick="location.reload()">Направление</a>
+                <a class="nice-look" onclick="location.href = '../tasks'">Задачи</a>
+                <a class="nice-look" onclick="location.href = '../schedule'">Расписание</a>
+                <a class="nice-look" onclick="location.href = '../news'">Новости</a>
+            </div>
+            <div class="high_name">
+                <div class="high nice-look"><i class="fas fa-user-friends high_images"></i>Одногруппники</div>
+                <a class="nice-look">Чаты</a>
+                <a class="nice-look">Моя группа</a>
+            </div>
+            <div class="high_name">
+                <div class="high nice-look" onclick="location.href = '../support'"><i class="fas fa-comment high_images"></i>Поддержка</div>
+                <a class="nice-look" onclick="location.href = '../support'">FAQ</a>
+                <a class="nice-look" onclick="location.href = '../support'">Задать вопрос</a>
             </div>
         </div>
+    </div>
 
         <div class="cont">
             <div class="first-module">
 			<section class="naprav">
                     <div class="it">
-					<img src="img/it.svg"></img>
+					<img src="../img/it.svg">
 					<h1>АЙТИ</h1>
 					<p>Полное погружение в пространство программирования, новейшие технологии в режиме STAND UP</p>
 					</div>
                 </section>
 				<section class="naprav">
                     <div class="prom">
-					<img src="img/prom.svg"></img>
+					<img src="../img/prom.svg">
 					<h1>ПРОМДИЗАЙН</h1>
 					<p>Креативное мышление без границ!</p>
 					<p>Узнай, как превратить идею в готовый продукт</p>
@@ -65,7 +66,7 @@
                 </section>
 				<section class="naprav">
                     <div class="robo">
-					<img src="img/robo.svg"></img>
+					<img src="../img/robo.svg">
 					<h1>РОБОТОТЕХНИКА</h1>
 					<p>Освой современные технологии производства с помощью образовательной программы «Робототехника»</p>
 					</div>
@@ -74,14 +75,14 @@
             <div class="second-module">
 			<section class="naprav">
                     <div class="mexa">
-					<img src="img/mexa.svg"></img>
+					<img src="../img/mexa.svg">
 					<h1>МЕХАТРОНИКА</h1>
 					<p>Научись конструировать производственные линии и узнай как работает каждый механизм.</p>
 					</div>
                 </section>
 				<section class="naprav">
                     <div class="neiro">
-					<img src="img/neiro.svg"></img>
+					<img src="../img/neiro.svg">
 					<h1>НЕЙРО</h1>
 					<p>Искусственный интеллект - это не фантастика из фильма про будущее, это настоящее, которое ты можешь не только изучить, но и изменить.</p>
 					<br>
@@ -89,7 +90,7 @@
                 </section>
 				<section id="inside" align="center">
 				<h1> Запись на занятия </h1>
-				<img id="logo_zapisi_na_curs" src="img/logo_academy.svg">
+				<img id="logo_zapisi_na_curs" src="../img/logo_academy.svg">
 				<br>
 				<input type="text" name="first-name" id="button" placeholder="Имя">
 				<br>
@@ -116,5 +117,6 @@
         <p>Академия Калашников 2021</p>
         <a href="#">Наверх</a>
     </footer>
+<script src="../js/main.js"></script>
 </body>
 </html>
