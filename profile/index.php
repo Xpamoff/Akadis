@@ -90,10 +90,11 @@
             </div>
         </div>
     </div>
-    <footer>
-        <p>Вы вошли как Шелдон Купер</p>
-        <p>Академия Калашников 2021</p>
-        <a href="#">Наверх</a>
-    </footer>
+<footer>
+    <p>Вы вошли как Шелдон Купер</p>
+    <p>Академия Калашников 2021</p>
+    <a href="#" class="link">Наверх</a>
+</footer>
+<script src="../js/main.js"></script>
 </body>
 </html>
