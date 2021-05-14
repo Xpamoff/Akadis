@@ -6,7 +6,8 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Академия Калашникова</title>
-    <link rel="stylesheet" href="../css/help.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/profile.css">
     <link rel="stylesheet" href="../fontawesome/css/all.css">
 </head>
 <body>
@@ -14,12 +15,12 @@
     <div class="header_left_hand">
         <i class="fas fa-bars menu_open" onclick="open_menu()"></i>
         <img src="../img/logo_academy.svg" class="logo header_left_hand_inner_block" onclick="location.href = '../'">
-        <div class="page_address header_left_hand_inner_block">Поддержка</div>
+        <div class="page_address header_left_hand_inner_block">Личный кабинет</div>
     </div>
     <div class="header_right_hand">
         <i class="far fa-comments header_right_hand_inner_block"></i>
         <i class="far fa-bell header_right_hand_inner_block"></i>
-        <img src="../img/avatar.jpg" class="header_right_hand_inner_block avatar" onclick="location.href='../profile'">
+        <img src="../img/avatar.jpg" class="header_right_hand_inner_block avatar" onclick="location.reload()">
     </div>
 </header>
 <div class="main-box">
@@ -38,46 +39,61 @@
                 <a class="nice-look">Моя группа</a>
             </div>
             <div class="high_name">
-                <div class="high nice-look" onclick="location.reload()"><i class="fas fa-comment high_images"></i>Поддержка</div>
-                <a class="nice-look" onclick="location.reload()">FAQ</a>
-                <a class="nice-look" onclick="location.reload()">Задать вопрос</a>
+                <div class="high nice-look" onclick="location.href='../support'"><i class="fas fa-comment high_images"></i>Поддержка</div>
+                <a class="nice-look" onclick="location.href='../support'">FAQ</a>
+                <a class="nice-look" onclick="location.href='../support'">Задать вопрос</a>
             </div>
         </div>
     </div>
 
         <div class="cont">
             <div class="first-module">
-                    <h1>Часто задаваемые вопросы</h1>
+                <section class="profile">
+                    Личная информация:
                     <hr>
-				<section class="faq" onclick="location.href='../index.php'">
-                    Как поменять привязанный телефон?
+                    <div class="name">Имя: Шелдон Купер</div>
+                    <div class="group">Группа: ИТ_У_21</div>
+                    <div class="teacher">Преподаватель: Доктор Стерждес</div>
+                    <div class="phone">Телефон: 1-845-123-73-73</div>
+                    <div class="email">Почта: sheldon.cooper@gmail.com</div>
+                    <a class="link">Изменить</a>
                 </section>
-				<section class="faq" onclick="location.href='../index.php'">
-                    Как поменять привязанную почту?
+                <section class="score">
+                    Личный счёт:
+                    <hr>
+                    <div class="score_place">61 б.</div>
+                    <a class="link">Как увеличить баллы?</a>
                 </section>
-				<section class="faq" onclick="location.href='../index.php'">
-                    Почему мои баллы не изменяются?
-                </section>
-				<section class="faq" onclick="location.href='../index.php'">
-                    Как обратиться к администрации Академии?
-                </section>
-				<section class="faq" onclick="location.href='../index.php'">
-                    Другое
+                <section class="pas">
+                    Пароль
+                    <hr>
+                    <a class="link">Изменить</a>
                 </section>
             </div>
             <div class="second-module">
-                <h1>Задать свой вопрос</h1>
-				
-				<input type="text" placeholder="Введите сюда ваш вопрос" class="vopr" onclick="border='none'">
-				<button onclick="location.href='../index.php'" class="faq but"><b>Отправить</b></button>
-				</div>
+                <section class="ava-section">
+                    Аватар:
+                    <hr>
+                    <div class="inner-ava">
+                        <img src="../img/avatar.jpg" class="ava">
+                        <a class="link">Изменить фото</a>
+                    </div>
+                </section>
+                <section class="exit bb">
+                    Выйти с аккаунта
+                </section>
+                <section class="delete bb">
+                    Удалить аккаунт
+                </section>
+            </div>
+                
+            </div>
         </div>
     </div>
     <footer>
         <p>Вы вошли как Шелдон Купер</p>
         <p>Академия Калашников 2021</p>
-        <a href="#" class="link">Наверх</a>
+        <a href="#">Наверх</a>
     </footer>
-    <script src="../js/main.js"></script>
 </body>
 </html>
