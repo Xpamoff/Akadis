@@ -8,6 +8,7 @@
     <title>Академия Калашникова</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="fontawesome/css/all.css">
+    <link href="/img/favicon.svg" sizes="any" rel="icon" type="image/svg+xml" />
 </head>
 <body>
     <header>
@@ -19,7 +20,7 @@
         <div class="header_right_hand">
             <i class="far fa-comments header_right_hand_inner_block"></i>
             <i class="far fa-bell header_right_hand_inner_block"></i>
-            <img src="img/avatar.jpg" class="header_right_hand_inner_block avatar">
+            <img src="img/avatar.jpg" class="header_right_hand_inner_block avatar" onclick="location.href='profile'">
         </div>
     </header>
     <div class="main-box">
@@ -66,7 +67,7 @@
                     <hr>
                     <div class="blizh">Ближайшее занятие: 16.04</div>
                     <div class="next">Следующее занятие: 20.04</div>
-                    <a href="расписание.php" class="link">Всё расписание</a>
+                    <a href="schedule" class="link">Всё расписание</a>
                 </section>
                 <section class="tasks">
                     Текущие задачи:

@@ -6,7 +6,7 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Академия Калашникова</title>
-    <link rel="stylesheet" href="news.css">
+    <link rel="stylesheet" href="../css/news.css">
     <link rel="stylesheet" href="../fontawesome/css/all.css">
 </head>
 <body>
@@ -19,7 +19,7 @@
     <div class="header_right_hand">
         <i class="far fa-comments header_right_hand_inner_block"></i>
         <i class="far fa-bell header_right_hand_inner_block"></i>
-        <img src="../img/avatar.jpg" class="header_right_hand_inner_block avatar">
+        <img src="../img/avatar.jpg" class="header_right_hand_inner_block avatar" onclick="location.href='../profile'">
     </div>
 </header>
 <div class="main-box">
@@ -44,41 +44,44 @@
             </div>
         </div>
     </div>
-
-        <div class="cont">
-            <div class="first-module">
-			<section class = "mainfield">
-			<center>Новости</center>
-			<hr>
-			<div class = "the-first-one">
+	<div class="cont">
+        <section class="tasks-name">
+            Новости
+        </section>
+		<div class="boxes">
+			<div class="sections">
+				<section>
+				<a class = "date" align="right">22.04.2021, 15:33<br /></a>
 				<a class = "title">Детей эвакуируют из школ Ижевска из-за сообщений о минировании<br /></a>
-				<a class = "date">22.04.2021, 15:33</a>
 				<hr>
-				<a>Сообщение о том, что неизвестные направляют в школы Ижевска электронные письма о заведомо ложном минировании,
+				<a class = "text">Сообщение о том, что неизвестные направляют в школы Ижевска электронные письма о заведомо ложном минировании,
 				появилось в телеграм-канале Темная Удмуртия.<br />
 				Как рассказала корреспонденту «Udm-Info» одна из учителей ижевской школы №24,
 				на адрес школы пришло электронное письмо с сообщением о том, что школа заминирована. 
-				Всех детей и учителей эвакуировали из здания за 5 минут и распустили по домам.</a>
-				<img src="../img/1.jpg" width="665" height="400" class = "first-picture">
-			</div>
-			<div class = "the-second-one">
-				<a class = "title">В Ижевске в микрорайоне Юровские дачи и по улице Трудовая пчела скоро появится уличное освещение<br /></a>
-				<a class = "date">23.04.2021, 11:13</a>
+				Всех детей и учителей эвакуировали из здания за 5 минут и распустили по домам.<br /></a>
+				<img src = "../img/1.jpg" class = "center-img">
 				<hr>
-				<a>Ижевск. Удмуртия. В Ижевске в микрорайоне Юровские дачи и по улице Трудовая пчела завершены работы
+				<a class = "Whose-photo">Фото: Юрий Парахин<a/>
+				</section>
+				<section>
+				<a class = "date" align="right">23.04.2021, 11:13<br /></a>
+				<a class = "title">В Ижевске в микрорайоне Юровские дачи и по улице Трудовая пчела скоро появится уличное освещение<br /></a>
+				<hr>
+				<a class = "text">Ижевск. Удмуртия. В Ижевске в микрорайоне Юровские дачи и по улице Трудовая пчела завершены работы
 				по установке новых светильников. Об этом сообщает пресс-служба города.<br /> После обращения местных жителей к главе Ижевска
 				Олегу Бекмеметьеву с просьбой оборудования уличного освещения, в декабре 2020 года в микрорайоне Юровские дачи начались работы. 
 				Установили источник электроснабжения, линии освещения, 6 светильников и выполнили монтаж 178 метров провода воздушных линий.<br />
 				Теперь предстоит закрепить новое городское имущество за муниципальным предприятием «Горсвет» и включить его в контракт на обеспечение наружного освещения Ижевска.
 				После завершения этих процедур в середине мая на улице Трудовая пчела и в микрорайоне Юровские дачи появится освещение.</a>
-				<img src="../img/2.jpg" width="600" height="365" class = "second-picture">
+				<img src="../img/2.jpg" class = "center-img">
+				<hr>
+				<a class = "Whose-photo">Фото: Крамарь Данил</a>
+				</section>
 			</div>
-			</section>
-            </div>
-			
-        </div>
+		</div>
     </div>
-    <footer>
+	</div>
+	<footer>
         <p>Вы вошли как Шелдон Купер</p>
         <p>Академия Калашников 2021</p>
         <a href="#" class="link">Наверх</a>

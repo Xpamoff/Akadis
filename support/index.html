@@ -19,7 +19,7 @@
     <div class="header_right_hand">
         <i class="far fa-comments header_right_hand_inner_block"></i>
         <i class="far fa-bell header_right_hand_inner_block"></i>
-        <img src="../img/avatar.jpg" class="header_right_hand_inner_block avatar">
+        <img src="../img/avatar.jpg" class="header_right_hand_inner_block avatar" onclick="location.href='../profile'">
     </div>
 </header>
 <div class="main-box">
