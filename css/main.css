@@ -379,7 +379,6 @@ footer{
     background: #f3f6f8;
     font-size: 20px;
      width: 100%;
-    background-color: white;
     padding-bottom: 20px;
 }
 
@@ -408,13 +407,6 @@ footer p{
 footer h4{
     padding-top: 20px;
 }
-.menu {
-    border-bottom-right-radius: 0;
-}
-
-.cont {
-    border-bottom-left-radius: 30px;
-}
 
 .icons {
     height: 25px;
@@ -434,6 +426,10 @@ footer h4{
 }
 footer .contact{
     margin-left: 10px;
+}
+footer a{
+    color: #677cff;
+    font-weight: bold;
 }
 
 
